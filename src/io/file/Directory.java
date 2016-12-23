@@ -13,7 +13,7 @@ public final class Directory {
 			public boolean accept(File dir, String name) {
 				return p.matcher(name).matches();
 			}
-		});
+		});    
 	}
 	public static File[] local(String path,final String regex){
 		return local(new File(path),regex);
