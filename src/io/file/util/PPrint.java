@@ -1,4 +1,4 @@
-package io.file;
+package io.file.util;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,6 +19,7 @@ public class PPrint {
 		if(c.size() == 0){
 			return "[]";
 		}
+		
 		StringBuffer sb = new StringBuffer("[");
 		for (Object elem : c) {
 			if(c.size() != 1){
@@ -43,8 +44,8 @@ public class PPrint {
 		list.add("2");
 		list.add("3");
 		list.add("q");
-		list.add("b");
-		list.add("1");
-		System.out.println(pformat(list));
+		list.add("g");
+		list.add("c");
+		pprint(list);
 	}
 }
