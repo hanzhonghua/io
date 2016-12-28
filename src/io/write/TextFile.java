@@ -79,6 +79,5 @@ public class TextFile extends ArrayList<String> {
 		TreeSet<String> set = new TreeSet<>();
 		new TextFile("src/io/write/TextFile.java", "\\W+");
 		System.out.println(set.headSet("a"));
-		
 	}
 }
